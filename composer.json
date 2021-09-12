@@ -1,0 +1,21 @@
+{
+    "name": "tieferson/notification",
+    "description": "Mail notifications generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tieferson Domingos",
+            "email": "tiefersond@yahoo.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
